@@ -1,0 +1,83 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.env
+.env
+db.sqlite3
+media/
+staticfiles/
+
+# If your Django project includes translations
+*.mo
+*.po
+
+# Ignore the local settings file
+local_settings.py
+
+# Django migrations
+**/migrations/
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.VENV/
+env.bak/
+venv.bak/
+my_env/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Test and temp files
+.tox/
+.pytest_cache/
+.cache/
+*.bak
+*.swp
+*.tmp
+*.out
+*.pid
+*.gz
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Other editors
+*~
+.project
+.pydevproject
